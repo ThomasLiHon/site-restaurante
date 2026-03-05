@@ -9,11 +9,18 @@ body {
 
     background: #d2d2c1 url('img/fundo.png');
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 0;
 
 }
 
 #principal {
     width: 900px;
+    margin: 0 auto;
+
+}
+#principal img {
+    display: block;
+    margin: 0 auto ;
 }
 
 #menu {
@@ -42,3 +49,4 @@ h1 {
     color: #828271;
     font-size: 1.3em;
 }
+
